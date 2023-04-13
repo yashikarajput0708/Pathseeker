@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* CSS for header */
+.header {
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+  background-color: #EDCACA; 
+  padding: 2px; 
+  margin: 0; 
+}
+
+.header .logo {
+  font-size: 30px;
+  font-family: 'Sriracha', cursive;
+  color: #000;
+  text-decoration: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    color: #E9C9C9;
+  }
+  
+  input[type="text"] {
+    width: 700px; /* increase the width to 300 pixels */ 
+    padding: 6px;
+    border: 3px;
+    border-radius: 10px;
+  }
+
+  
+
+.nav-items {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: #EDCACA;
+  margin-left: 750px;
+  font-size: 20px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #000;
+  padding: 35px 20px;
+}
+/* CSS for main section */
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 520px;
+  background-color: #C8A3A3;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.intro p {
+  font-size: 20px;
+  color: #d1d1d1;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.intro button {
+  background-color: #5edaf0;
+  color: #000;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgb(186, 136, 136)
+}
+
+/*explore*/
+.col{
+    flex-basis: 50%;
+    background-color: #EDCACA;
+    width: 100%;
+  height: 400px;
+}
+h1{
+    color: #34203c;
+    font-size: 150px;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 2px 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s ;
+}
+.card1 {
+     background-image: url(entrance.png);   
+     margin-left: 150px;
+}
+.card2 {
+     background-image: url(s2.png);   
+}
+.card3 {
+     background-image: url(jobsearch.png);   
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 5px #34203c;
+}
+.card p{
+    text-shadow: 0 0 5px #f6f1f1;
+    font-size: 10px;
+}
+/* CSS for footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 10px 80px;
+}
+
+.footer .copy {
+  color: #fff;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.bottom-links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.bottom-links .links span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.bottom-links .links a {
+  text-decoration: none;
+  color: #a1a1a1;
+  padding: 10px 20px;
+}
+
+.myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
