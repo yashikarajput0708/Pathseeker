@@ -5,50 +5,68 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pathseeker.com</title>
+  <script src="https://kit.fontawesome.com/553851709b.js" crossorigin="anonymous"></script>
 </head>
 <link rel="stylesheet" href="home.css">
 <body>
-  <header class="header">
+  <header id="header">
     <img src="Icon.png" alt="header">
     <a href="#" class="logo">PATHSEEKER</a>
     <nav class="nav-items">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+      <a href="#header">Home</a>
+      <a href="#footer">Contact</a>
+      <a href="#"><i class="fa-brands fa-rocketchat"></i></a>
     </nav>
   </header>
   <div class="intro">
     <h1> <em>Explore your career path</em></h1>
-    <p></p>
-    <form action="/search" method="get">
-      <input type="text" placeholder="Search.." id="search" name="q">
-    </form>
+    <div class="select-box">
+      <div class="select-option">
+        <input type="text" placeholder="Select" id="soValue" readonly>
+      </div>
+      <div class="content">
+        <div class="search">
+          <input type="text" id="optionSearch" placeholder="Search">
+        </div>
+        <ul class="options">
+          <li><a href="https://www.crio.do/blog/become-a-full-stack-developer-roadmap/?utm_source=blog-int">How to become a Full Stack Developer</a></li>
+          <li><a href="https://blockgeeks.com/guides/what-is-blockchain-technology/">Guide to blockchain technology</a></li>
+          <li><a href="https://corporatefinanceinstitute.com/resources/management/time-management-list-tips/">Time Management tips</a></li>
+          <li><a href="https://emeritus.org/in/learn/ai-and-ml-machine-learning-projects/">Machine learning projects</a></li>
+          <li><a href="https://www.coursera.org/articles/ethical-hacking-certifications?utm_source=gg&utm_mediu
+               m=sem&utm_campaign=B2C_INDIA__Google_FTCOF_googlecerts_arte_PMax_Addtocart&utm_content=Degree&cam
+               paignid=19768196284&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adpostion=&cre
+               ativeid=&hide_mobile_promo&gclid=EAIaIQobChMIjfTtjPSz_gIVVpNmAh3h4Q7zEAAYAiAAEgJ9d_D_BwE">How to get certified in ethical hacking</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
     <div class="col">
+      <a href="entrance.html">
        <div class="card card1">
-       </div>
+       </div></a>
+      <a href="job.html">
        <div class="card card2">
-       </div>
+       </div></a>
+      <a href="abroad.html">
        <div class="card card3">
-       </div>
+       </div></a>
     </div>
   </div>
-  <footer class="footer">
-    <div class="copy">&copy; Pathseeker</div>
-    <div class="bottom-links">
-      <div class="links">
-        <span>More Info</span>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+  <footer id="footer">
+    <div class="contact-left">
+      <h1 class="sub-title">Contact</h1>
+      <p><i class="fa-sharp fa-solid fa-paper-plane"></i>contact@example.com</p>
+      <p><i class="fa-solid fa-phone"></i>8714060531</p>
+      <div class="social-icons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
       </div>
-      <div class="links">
-        <span>Social Links</span>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
+      <div class="copy">&copy; Pathseeker</div>
+  </div>
   </footer>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
