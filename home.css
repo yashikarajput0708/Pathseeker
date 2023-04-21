@@ -46,7 +46,7 @@ form {
   justify-content: right;
   align-items: center;
   background-color: #EDCACA;
-  margin-left: 750px;
+  margin-left: 900px;
   font-size: 20px;
 }
 
@@ -94,7 +94,7 @@ form {
   cursor: pointer;
   font-size: 14px;
   padding: 6px 260px;
-  padding-left: 0;
+  padding-left: 10px;
   border: 0 !important;
   outline: 0 !important;
 }
@@ -104,9 +104,9 @@ form {
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   position: absolute;
-  right: -230px;
-  top: 65%;
-  margin-top: -8px;
+  right: -250px;
+  top: 70%;
+  margin-top: -10px;
 }
 .content{
   background-color: #fff;
@@ -302,3 +302,4 @@ form .btn2{
   margin-top: 20px;
   cursor: pointer;
 }
+
